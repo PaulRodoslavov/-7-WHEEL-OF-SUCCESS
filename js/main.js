@@ -82,17 +82,17 @@ function presKey(keyrow){
 
 	});
 
-		start.addEventListener('touchend', () => {
-		if (start.textContent == 'Start Again'){
-			document.location.reload(true);		
-		}
-		else{
-			overlay.style.display = 'none';
-			addPhraseToDispla(splitedPhrase);
-			presKey(keyrow);
-		}		
+	// 	start.addEventListener('touchend', () => {
+	// 	if (start.textContent == 'Start Again'){
+	// 		document.location.reload(true);		
+	// 	}
+	// 	else{
+	// 		overlay.style.display = 'none';
+	// 		addPhraseToDispla(splitedPhrase);
+	// 		presKey(keyrow);
+	// 	}		
 
-	});
+	// });
 
 
 
