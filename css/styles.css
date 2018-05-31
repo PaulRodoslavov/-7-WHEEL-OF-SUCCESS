@@ -182,3 +182,16 @@ button {
 .lose a {
   color: var(--color-lose);
 }
+
+
+@media (max-width: 570px){
+  button {
+    margin: 1%;
+    padding: 1% 2%;
+  }
+  .tries img{
+    height: 45px;
+    width: 50px;
+  }
+
+}
