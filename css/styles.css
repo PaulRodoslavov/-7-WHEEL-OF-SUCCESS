@@ -93,6 +93,10 @@ button {
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+  --transition: 1s;
 }
 
 .space {
@@ -102,6 +106,7 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+  transform: rotateX(360deg);
 }
 
 /* Keyboard */
